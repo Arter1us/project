@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #445162;
+}
+
+.top {
+  padding: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__box {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-family: Arial;
+}
+
+.top__header {
+  font-size: 60px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.top__list li {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  background: url(../img/check_icon.png) left no-repeat;
+  padding: 0 0 0 35px;
+}
+
+.title {
+  color: #445161;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  padding-bottom: 30px;
+}
+
+.title__mini {
+  color: #445161;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.text {
+  color: #333333;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.content {
+  padding: 50px 0 50px 0;
+}
+
+.content__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__box-text {
+  max-width: 653px;
+}
+.content__box p {
+  margin-bottom: 20px;
+}
+
+.title__medium {
+  text-align: center;
+}
+
+.medium__content {
+  display: flex;
+}
+
+.medium__list {
+  width: 50%;
+}
+
+.medium__list li {
+  background: url(../img/layers.png) 0% 10% no-repeat;
+  padding-left: 40px;
+}
+
+.scrinshots__content {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.scrinshots__content:last-child {
+  margin-bottom: 0;
+}
+
+.scrinshots__content_column {
+  display: flex;
+  width: 50%;
+}
+
+.scrinshots__text {
+  margin-left: 15px;
+}
