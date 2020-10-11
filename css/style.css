@@ -68,7 +68,7 @@ border-spacing: 0;
 .top__item {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   color: #ffffff;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .top__title {
@@ -124,7 +124,7 @@ border-spacing: 0;
 
 .title {
   color: #445161;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
@@ -133,7 +133,7 @@ border-spacing: 0;
 
 .title__mini {
   color: #445161;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
@@ -141,7 +141,7 @@ border-spacing: 0;
 
 .text {
   color: #333333;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -273,7 +273,7 @@ border-spacing: 0;
   line-height: 24px;
 }
 
-.button {
+.button__buy {
   display: inline-block;
   margin-top: 20px;
   color: #445161;
@@ -293,4 +293,93 @@ border-spacing: 0;
 
 .footer {
   background: #445162;
+  padding: 50px 0;
+}
+
+.title__footer {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  padding-bottom: 30px;
+}
+
+.data__block {
+  width: 500px;
+}
+
+.data__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.data__input {
+  box-sizing: border-box;
+  width: 500px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: none;
+  padding: 14px 10px;
+}
+
+.data__input::placeholder,
+.message::placeholder {
+  color: #445162;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.message {
+  box-sizing: border-box;
+  width: 500px;
+  height: 170px;
+  resize: none;
+  border-radius: 6px;
+  border: none;
+  padding: 14px 10px;
+  margin-bottom: 20px;
+}
+
+.button__send {
+  align-self: center;
+  padding: 14px 0;
+  width: 140px;
+  background: #ffffff;
+  display: inline-block;
+  border-radius: 6px;
+  text-align: center;
+
+  color: #445162;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contact__list {
+  margin-bottom: 18px;
+  height: 26px;
+  padding-left: 29px;
+}
+
+.contact__list:nth-child(1) {
+  background: url(../img/skype_icon.png) left no-repeat;
+}
+
+.contact__list:nth-child(2) {
+  background: url(../img/icq_icon.png) left no-repeat;
+}
+
+.contact__list:nth-child(3) {
+  background: url(../img/email_icon.png) left no-repeat;
+}
+
+.contact__list:nth-child(4) {
+  background: url(../img/phone_icon.png) left no-repeat;
 }

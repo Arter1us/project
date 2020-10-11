@@ -253,7 +253,7 @@
                                 <li>4. Aperiam nulla ea neque.</li>
                             </ol>
 
-                            <a href="#" class="button">Buy</a>
+                            <a href="#" class="button__buy">Buy</a>
                         </div>
                     </div>
 
@@ -272,7 +272,7 @@
                                 <li>8. Aperiam nulla ea neque.</li>
                             </ol>
 
-                            <a href="#" class="button">Buy</a>
+                            <a href="#" class="button__buy">Buy</a>
                         </div>
                     </div>
 
@@ -295,7 +295,7 @@
                                 <li>12. Aperiam nulla ea neque.</li>
                             </ol>
 
-                            <a href="#" class="button">Buy</a>
+                            <a href="#" class="button__buy">Buy</a>
                         </div>
                     </div>
 
@@ -307,22 +307,28 @@
     </article>
 
     <footer class="footer">
-        <div class="container"></div>
-        <h2 class="title title-align-medium">Contacts</h2>
-        <div>
-            <form action="#">
-                <input type="text">
-                <input type="text">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </form>
-        </div>
-        <div>
-            <p>here_your_login_skype</p>
-            <p>279679659</p>
-            <p>psdhtmlcss@mail.ru</p>
-            <p>80 00 4568 55 55</p>
-        </div>
+        <div class="container">
+            <h2 class="title__footer title-align-medium">Contacts</h2>
 
+            <div class="data__block">
+                <form class="data__form" action="#">
+                    <input class="data__input" type="text" placeholder="Your name:">
+                    <input class="data__input" type="text" placeholder="Your email:">
+                    <textarea class="message" name="message" id="" placeholder="Your message:"></textarea>
+                    <a href="#" class="button__send">send</a>
+                </form>
+            </div>
+
+            <div class="contact__details">
+                <ul class="contact__item">
+                    <li class="contact__list">here_your_login_skype</li>
+                    <li class="contact__list">279679659</li>
+                    <li class="contact__list">psdhtmlcss@mail.ru</li>
+                    <li class="contact__list">80 00 4568 55 55</li>
+                </ul>
+            </div>
+
+        </div>
     </footer>
 
 </body>
