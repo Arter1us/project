@@ -160,9 +160,14 @@ border-spacing: 0;
   margin-bottom: 0;
 }
 
-.scrinshots__content_column {
+.scrinshots__column {
   display: flex;
   width: 50%;
+  margin-left: 10px;
+}
+
+.scrinshots__column:first-child {
+  margin-left: 0;
 }
 
 .scrinshots__text {
@@ -177,8 +182,15 @@ border-spacing: 0;
 .reviews__item {
   box-sizing: border-box;
   display: flex;
-  flex: 1 1 574px;
+}
+
+.reviews__item:nth-child(1),
+.reviews__item:nth-child(2)  {
   margin-bottom: 24px;
+}
+
+.reviews__item:nth-child(odd) {
+  margin-right: 32px;
 }
 
 .reviews_img {
@@ -191,7 +203,6 @@ border-spacing: 0;
   background: url(../img/bg_review.png) no-repeat;
   width: 483px;
   box-sizing: border-box;
-  padding-bottom: 16px;
 }
 
 .reviews__text p {
@@ -201,6 +212,7 @@ border-spacing: 0;
 
 .reviews__author {
   padding-left: 27px;
+  padding-bottom: 10px;
 }
 
 .reviews__paragraph {
@@ -209,4 +221,76 @@ border-spacing: 0;
 
 .reviews__author {
   color: #989898;
+}
+
+.card__collection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  align-self: flex-end;
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 8px;
+  background: #445162;
+}
+
+.card__title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  padding: 16px 0;
+}
+
+.card__price {
+  background: #ffffff;
+  padding: 18px 0;
+  text-align: center;
+  color: #445162;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  border: 2px solid #445162;
+}
+
+.card__text {
+  padding: 20px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  color: #445161;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 18px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 14px 111px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 7px;
+}
+
+
+.footer {
+  background: #445162;
 }
