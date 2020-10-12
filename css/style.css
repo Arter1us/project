@@ -305,8 +305,14 @@ border-spacing: 0;
   padding-bottom: 30px;
 }
 
+.data__item {
+  display: flex;
+  justify-content: center;
+}
+
 .data__block {
   width: 500px;
+  margin-right: 46px;
 }
 
 .data__form {
@@ -382,4 +388,14 @@ border-spacing: 0;
 
 .contact__list:nth-child(4) {
   background: url(../img/phone_icon.png) left no-repeat;
+}
+
+.contact__text {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
 }
