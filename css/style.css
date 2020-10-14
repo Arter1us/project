@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-v2.0 | 20110126
-License: none (public domain)
-*/
+/* Обнуление стилей */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,6 +44,7 @@ border-spacing: 0;
 }
 
 
+/* Container */
 .container {
   width: 1180px;
   margin: 0 auto;
@@ -54,30 +52,29 @@ border-spacing: 0;
 
 
 /* Header */
-
 .header {
   background-color: #445162;
 }
 
-.top {
+.product {
   padding: 50px 0 50px 0;
   display: flex;
   justify-content: space-between;
 }
 
-.top__item {
+.product__item {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.top__title {
+.product__title {
   font-size: 60px;
   font-weight: 400;
   padding-bottom: 30px;
 }
 
-.top__list li {
+.product__list {
   font-size: 20px;
   font-weight: 400;
   line-height: 36px;
@@ -290,6 +287,15 @@ border-spacing: 0;
   border-radius: 7px;
 }
 
+.button__buy:hover {
+  background-color: #e6e3e9;
+}
+
+.button__buy:active {
+  position: relative;
+  top: 2px;
+}
+
 
 .footer {
   background: #445162;
@@ -328,10 +334,6 @@ border-spacing: 0;
   border-radius: 6px;
   border: none;
   padding: 14px 10px;
-}
-
-.data__input::placeholder,
-.message::placeholder {
   color: #445162;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -349,6 +351,12 @@ border-spacing: 0;
   border: none;
   padding: 14px 10px;
   margin-bottom: 20px;
+  color: #445162;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
 }
 
 .button__send {
@@ -366,6 +374,15 @@ border-spacing: 0;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.button__send:hover {
+  background-color: #e6e3e9;
+}
+
+.button__send:active {
+  position: relative;
+  top: 2px;
 }
 
 .contact__list {
@@ -398,4 +415,9 @@ border-spacing: 0;
   font-style: normal;
   letter-spacing: normal;
   line-height: 24px;
+  text-decoration: none;
+}
+
+.contact__text:hover {
+  text-decoration: underline;
 }
